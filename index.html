@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bienvenue sur AquaMaris</title>
+		<style>
+			#banner {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				height: 100vh; /* 100% de la hauteur de la vue */
+			}
+	
+			#bg-video {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover; /* Pour remplir complètement le conteneur tout en préservant le ratio d'aspect */
+			}
+	
+			.inner {
+				position: relative;
+				z-index: 1;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				color: white; /* Couleur du texte, ajustez selon votre design */
+				text-align: center;
+			}
+	
+			.content {
+				max-width: 800px; /* Ajustez selon la largeur maximale souhaitée pour le contenu */
+				margin: 0 auto;
+			}
+		</style>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Aqua</strong> <span>Maris</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Accueil</a></li>
+							<li><a href="Espaces Marines\Espaces Marines.html">Projet 1 : Les espèces marines</a></li>
+							<li><a href="Ports\Ports.html">Projet 2 : Les Ports</a></li>
+							<li><a href="Fermes Aquacoles\Fermes Aquacoles.html">Projet 3 : Les Fermes</a></li>
+						</ul>
+					
+					</nav>
+
+				<!-- Banner -->
+				<section id="banner" class="major">
+					<video autoplay loop muted playsinline id="bg-video">
+						<!-- Remplacez "chemin_vers_votre_video.mp4" par le chemin de votre vidéo -->
+						<source src="animation.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="inner">
+						<header class="major">
+							<h1>Bienvenue sur AquaMaris</h1>
+						</header>
+						<div class="content">
+							<p>Découvrez le Maroc sous un nouvel angle avec notre géoportail innovant, un hub intégré réunissant trois projets passionnants. <br> Bienvenue sur une plateforme dédiée à l'exploration des richesses marines de notre pays.</p>
+							
+							<ul class="actions">
+								<li><a href="#one" class="button next scrolly">Commencer </a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/Especes_marines.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Espaces Marines\Espaces Marines.html" class="link">Projet 1 </a></h3>
+										<h4>Les espèces marines</h4>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Ports.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Ports\Ports.html" class="link">Projet 2</a></h3>
+										<h4>Les Ports</h4>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/fermes.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Fermes Aquacoles\Fermes Aquacoles.html" class="link">Projet 3</a></h3>
+										<h4>Les fermes Aquacoles Installées</h4>
+									</header>
+								</article>
+								
+							</section>
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Nom Complet</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Envoyer le message" class="primary" /></li>
+										<li><input type="reset" value="Refaire" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">Aquamaris@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Téléphone</h3>
+										<span>+212 5 00 00 34 71</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Adresse</h3>
+										<span>123, Avenue des Halieutes Quartier Bleu<br />
+											10000 Rabat<br />
+											Maroc</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; Copyright</li><li>Aquamaris: <a href="https://html5up.net">2024</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
